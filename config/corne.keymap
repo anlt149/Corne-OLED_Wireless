@@ -21,10 +21,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q    &kp W    &kp E         &kp R         &kp T        &kp Y       &kp U    &kp I      &kp O    &kp P     &kp ENTER
-&mo 2      &lt 2 A  &lt 2 S  &lt 2 D       &lt 2 F       &lt 2 G      &lt 2 H     &lt 2 J  &lt 2 K    &lt 2 L  &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z    &kp X    &kp C         &kp V         &kp B        &kp N       &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_CONTROL
-                             &kp LEFT_ALT  &kp LEFT_WIN  &kp SPACE    &kp DELETE  &mo 1    &kp RALT
+&kp TAB    &kp Q    &kp W    &kp E                     &kp R         &kp T        &kp Y       &kp U    &kp I      &kp O    &kp P     &kp ENTER
+&mo 2      &lt 2 A  &lt 2 S  &lt 2 D                   &lt 2 F       &lt 2 G      &lt 2 H     &lt 2 J  &lt 2 K    &lt 2 L  &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z    &kp X    &kp C                     &kp V         &kp B        &kp N       &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_CONTROL
+                             &kp LG(LC(LS(LEFT_ALT)))  &kp LEFT_WIN  &kp SPACE    &kp DELETE  &mo 1    &kp RALT
             >;
         };
 
