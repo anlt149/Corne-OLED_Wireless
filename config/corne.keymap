@@ -21,10 +21,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q    &kp W    &lt 1 E                   &lt 1 R       &kp T        &kp Y          &kp U    &kp I      &kp O    &kp P     &kp ENTER
-&mo 2      &lt 2 A  &lt 2 S  &lt 2 D                   &lt 2 F       &lt 2 G      &lt 2 H        &lt 2 J  &lt 2 K    &lt 2 L  &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z    &kp X    &kp C                     &kp V         &kp B        &kp N          &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_CONTROL
-                             &kp LG(LC(LS(LEFT_ALT)))  &kp LEFT_WIN  &kp SPACE    &kp BACKSPACE  &mo 1    &kp RALT
+&kp TAB    &kp Q    &kp W    &lt 1 E  &lt 1 R       &kp T        &kp Y          &kp U  &kp I      &kp O    &kp P     &kp ENTER
+&mo 2      &lt 3 A  &lt 3 S  &lt 3 D  &lt 3 F       &lt 2 G      &kp H          &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z    &kp X    &kp C    &kp V         &kp B        &kp N          &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_CONTROL
+                             &mo 2    &kp LEFT_WIN  &kp SPACE    &kp BACKSPACE  &mo 1  &mo 3
             >;
         };
 
@@ -51,10 +51,19 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &kp EXCL  &kp AT         &kp HASH        &kp DLLR          &kp PRCNT               &kp CARET              &kp AMPS           &kp ASTRK        &kp MINUS         &kp EQUAL  &kp GRAVE
-&kp LCTRL   &trans    &kp LESS_THAN  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp GREATER_THAN  &kp BSLH   &kp TILDE
-&kp LSHFT   &trans    &trans         &trans          &trans            &trans                  &kp UNDER              &kp PLUS           &kp LBRC         &kp RBRC          &kp PIPE   &kp QUESTION
-                                     &kp LGUI        &trans            &kp SPACE               &trans                 &trans             &kp RALT
+&kp ESCAPE  &kp MINUS     &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp CARET              &kp AMPS           &kp ASTRK        &kp MINUS         &kp EQUAL  &kp GRAVE
+&trans      &kp ASTERISK  &kp SLASH  &kp NUMBER_4  &kp N5        &kp NUMBER_6    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp GREATER_THAN  &kp BSLH   &kp TILDE
+&trans      &trans        &trans     &kp N7        &kp N8        &kp N9          &kp UNDER              &kp PLUS           &kp LBRC         &kp RBRC          &kp PIPE   &kp QUESTION
+                                     &trans        &trans        &kp SPACE       &kp BACKSPACE          &trans             &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&kp ESCAPE  &trans        &trans          &trans            &trans        &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE
+&trans      &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_GUI  &trans    &kp LESS_THAN         &kp GREATER_THAN       &kp MINUS         &kp UNDERSCORE     &kp EQUAL       &kp PLUS
+&trans      &trans        &trans          &trans            &trans        &trans    &trans                &trans                 &kp QUESTION      &kp SLASH          &kp TILDE       &kp GRAVE
+                                          &trans            &trans        &trans    &trans                &trans                 &trans
             >;
         };
     };
