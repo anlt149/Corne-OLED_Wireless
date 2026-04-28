@@ -22,7 +22,7 @@
 
             bindings = <
 &kp TAB    &kp Q    &kp W    &lt 1 E  &lt 1 R       &kp T        &kp Y          &kp U  &kp I      &kp O    &kp P     &kp ENTER
-&mo 2      &lt 3 A  &lt 3 S  &lt 3 D  &lt 3 F       &lt 2 G      &kp H          &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&mo 2      &lt 3 A  &lt 3 S  &lt 3 D  &lt 3 F       &lt 3 G      &kp H          &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z    &kp X    &kp C    &kp V         &kp B        &kp N          &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_CONTROL
                              &mo 2    &kp LEFT_WIN  &kp SPACE    &kp BACKSPACE  &mo 1  &mo 3
             >;
@@ -51,10 +51,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &kp MINUS     &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp CARET              &kp AMPS           &kp ASTRK        &kp MINUS         &kp EQUAL  &kp GRAVE
-&trans      &kp ASTERISK  &kp SLASH  &kp NUMBER_4  &kp N5        &kp NUMBER_6    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp GREATER_THAN  &kp BSLH   &kp TILDE
-&trans      &trans        &trans     &kp N7        &kp N8        &kp N9          &kp UNDER              &kp PLUS           &kp LBRC         &kp RBRC          &kp PIPE   &kp QUESTION
-                                     &trans        &trans        &kp SPACE       &kp BACKSPACE          &trans             &trans
+&kp ESCAPE  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp CARET              &kp AMPS           &kp ASTRK        &kp MINUS         &kp EQUAL  &kp GRAVE
+&trans      &trans  &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp GREATER_THAN  &kp BSLH   &kp TILDE
+&trans      &trans  &trans  &kp N7        &kp N8        &kp N9          &kp UNDER              &kp PLUS           &kp LBRC         &kp RBRC          &kp PIPE   &kp QUESTION
+                            &trans        &trans        &kp SPACE       &kp BACKSPACE          &trans             &trans
             >;
         };
 
@@ -64,6 +64,15 @@
 &trans      &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_GUI  &trans    &kp LESS_THAN         &kp GREATER_THAN       &kp MINUS         &kp UNDERSCORE     &kp EQUAL       &kp PLUS
 &trans      &trans        &trans          &trans            &trans        &trans    &trans                &trans                 &kp QUESTION      &kp SLASH          &kp TILDE       &kp GRAVE
                                           &trans            &trans        &trans    &trans                &trans                 &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&bt BT_CLR  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                        &trans        &trans        &trans    &trans  &trans  &trans
             >;
         };
     };
