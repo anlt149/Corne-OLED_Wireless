@@ -35,10 +35,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &kp F1        &kp F2          &kp F3            &kp F4        &kp F5       &kp F6    &kp F7    &kp F8    &kp F9     &kp F10  &kp F11
-&kp CAPS    &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp SPACE    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans   &kp F12
-&trans      &trans        &trans          &trans            &trans        &trans       &trans    &trans    &trans    &trans     &trans   &kp LG(LC(LS(NUMBER_4)))
-                                          &trans            &trans        &kp SPACE    &kp RET   &trans    &kp RALT
+&kp ESCAPE  &kp F1        &kp F2          &kp F3                    &kp F4        &kp F5       &kp F6    &kp F7    &kp F8    &kp F9     &kp F10  &kp F11
+&kp CAPS    &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL          &kp LEFT_GUI  &kp SPACE    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans   &kp F12
+&trans      &trans        &trans          &kp LG(LC(LS(NUMBER_4)))  &trans        &trans       &trans    &trans    &trans    &trans     &trans   &kp LG(LC(LS(NUMBER_4)))
+                                          &trans                    &trans        &kp SPACE    &kp RET   &trans    &kp RALT
             >;
         };
 
@@ -59,10 +59,10 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE  &trans  &trans  &trans  &trans          &kt LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &trans           &kp EQUAL     &kp PLUS        &kp TILDE             &kp GRAVE
-&trans      &trans  &trans  &trans  &kp LEFT_BRACE  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp RIGHT_BRACE  &kp MINUS     &kp UNDERSCORE  &kp NON_US_BACKSLASH  &kp PIPE
-&trans      &trans  &trans  &trans  &trans          &kp LESS_THAN           &kp GREATER_THAN       &trans           &kp QUESTION  &kp SLASH       &trans                &trans
-                            &trans  &trans          &trans                  &trans                 &trans           &trans
+&kp ESCAPE  &kp LC(LG(LS(NUMBER_4)))  &trans  &trans  &trans          &kt LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &trans           &kp EQUAL     &kp PLUS        &kp TILDE             &kp GRAVE
+&trans      &trans                    &trans  &trans  &kp LEFT_BRACE  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp RIGHT_BRACE  &kp MINUS     &kp UNDERSCORE  &kp NON_US_BACKSLASH  &kp PIPE
+&trans      &trans                    &trans  &trans  &trans          &kp LESS_THAN           &kp GREATER_THAN       &trans           &kp QUESTION  &kp SLASH       &trans                &trans
+                                              &trans  &trans          &trans                  &trans                 &trans           &trans
             >;
         };
 
